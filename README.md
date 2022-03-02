@@ -24,6 +24,7 @@ python nftGeneration.py
 2) Calculate the size of the slices respecting the relationship of aspect (1:1, 3:2, among others), simply calculate width/height.
 3) The frame and the image should have the same size (also this will be the final slice size). The program itself adjust the overlapping with the resizeFactor.
 4) Inputs to be set:
+```
    - fontSize
    - fontRoute (the route to the .ttf font)
    - bottomPerc (margin from the bottom of the overlay text)
@@ -35,3 +36,4 @@ python nftGeneration.py
    - myFrame route to each designed frame (you can edit the if statement to have all the desired indexes depending the amount of frames.
    - frameColor (the same as mFrame but with their names).
    - jsonGenerator (edit the json file to one that matches your needs).
+```
