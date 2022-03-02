@@ -8,7 +8,7 @@
 
 ### nftMetadataEdit.py
 - Once you upload all your sliced images folder to the IPFS service of your choice (e.g. Pinata), the system gives a CID to that folder followed by /nftName.json which needs to be replaced on each metadata file. 
-- This file takes an imput of the image folder CID and modifies each json file.
+- This file takes an imput of the image folder CID and modifies each .json file.
 
 ### nftCoordinateGenerator.py
 - Takes the main big image, vertical and horizontal lines made in Illustrator (or other SVG creator) and adds them to the main big image creating a grid.
