@@ -1,5 +1,5 @@
 # slicing-image-nft
-## Program Overview
+## Program Overviews
 ### nftGeneration.py
 - This program takes a big image as an input and generates slices of the desired size. 
 - For each slice it assigns a frame and overlays it with a text generated in a coordinate way. 
@@ -14,6 +14,9 @@
 - Takes the main big image, vertical and horizontal lines made in Illustrator (or other SVG creator) and adds them to the main big image creating a grid.
 - The horizontal and vertical lines should have the width or height of the big image. For example, for a 24,000x18,000 image the vertical lines should have 18,000px of height and the horizontal 24,000px of width.
 - Load each content as well as keeping the offset ratio given into the **nftGeneration.py** program.
+
+### nftAddCoordinateNumber.py
+- Loads the image with vertical and horizontal coordinate lines and adds the respective coordinates for each row and column (that will be corresponded with the indexes overlayed on each sliced image created before using **nftGeneration.py**
 
 
 ## Instructions (in running order)
@@ -62,4 +65,12 @@ imageCIDs = "ipfs://_CID_/"
 2) Set the **offset** the same as the **nftGeneration.py** program.
 3) Make sure that the loaded image under the line 9 is the same as the sliced image from before.
 4) Load the vertical an horizontal lines created in lines 18 and 19.
+5) Run.
+
+
+### nftAddCoordinateNumber.py
+1) Make sure that the input path of the image is the one with the horizontal and vertical lines (in line 9)
+2) Select a fontSize and fontType
+3) Under each generator (vertical and horizontal) there are **adjustmentFactors** that will help you match each number with the available space between rows and columns
+4) You can add and tweak the **if statement** within each generator to adjust a specific number acording your needs as well as each **adjustmentFactor**.
 5) Run.
