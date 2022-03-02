@@ -1,8 +1,10 @@
 # slicing-image-nft
 ## Main purpose of each program
 ### nftGeneration.py
-This program takes an image as an input and generates slices of the desired size. To each slice it assigns a frame and overlays with a text generated in a coordinate way. Also, it filters and discards all the slices that are completely white. 
-When each slice is created with the proper frame and coordinates, it saves the file to the Output folder and generates the metadata (following Opensea standards) for each slice.
+- This program takes an image as an input and generates slices of the desired size. 
+- To each slice it assigns a frame and overlays with a text generated in a coordinate way. 
+- Also, it filters and discards all the slices that are completely white. +
+- When each slice is created with the proper frame and coordinates, it saves the file to the Output folder and generates the metadata (following Opensea standards) for each slice.
 
 
 
