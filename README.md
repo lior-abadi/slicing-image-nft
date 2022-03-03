@@ -1,5 +1,8 @@
 # slicing-image-nft
 ## Program Overviews
+This program can be used for several purposes. It has a modular design and fully adaptable code which gives flexibility to the user. If used end to end with the instructions provided below, a full NFT collection with proper Metadata (and each image CID link) will be generated. You can use just parts of it to achieve your needs. The slicing image process can be done with Photoshop (e.g.) but will need a powerful machine to do so.  With this code the same output is achieved with less performance needed.
+Enjoy!
+
 ### nftGeneration.py
 - This program takes a big image as an input and generates slices of the desired size. 
 - For each slice it assigns a frame and overlays it with a text generated in a coordinate way. 
